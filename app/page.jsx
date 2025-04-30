@@ -8,10 +8,19 @@ import Menu from "./components/Menu";
 import Phone from "./components/Phone";
 import FooterSlider from "./components/FooterSlider";
 import Footer from "./components/Footer";
+import { useEffect, useState } from 'react'
+import Loader from './components/Loader'
 
 export default function Home() {
+    const [loader, setLoader] = useState(true)
+    useEffect(()=>{
+      setTimeout(()=>{
+        setLoader(false)
+      }, 1000)
+    },[])
   return (
     <div className=''>
+      {loader?<Loader/>:""}
 
       <Header />
       <Hero />

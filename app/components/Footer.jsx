@@ -12,11 +12,11 @@ const Footer = () => {
 
 
                 <div className="container px-5 max-md:pl-0 max-md:ml-[10px] py-24 w-[80%] justify-self-center mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-                    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                    <div className="w-64 max-sm:w-[100%] flex-shrink-0 md:mx-0 mx-auto max-sm:mx-0 text-center md:text-left">
                         <Link href={''} className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                             <span className="font-serif logo text-xl">About</span>
                         </Link>
-                        <p className="mt-9 text-[18px] max-md:translate-x-[-45px] w-[350px] text-gray-400">
+                        <p className="mt-9 text-[18px] max-md:translate-x-[-45px] w-[350px] max-sm:translate-x-0 max-sm:w-full text-gray-400">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nam!
                         </p>
 
@@ -86,7 +86,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                        <div className="lg:w-1/4 mx-[150px] md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/4 mx-[150px] md:w-1/2 max-sm:mx-0 w-full px-4">
                             <h2 className="title-font font-medium text-white tracking-widest text-xl mb-9">
                                 Contact Info
                             </h2>
@@ -140,10 +140,10 @@ const Footer = () => {
 
 
 
-                <div className="bg-footer-2 mt-[24px] px-[128px] py-[16px] w-full justify-self-center flex flex-wrap">
+                <div className="bg-footer-2 mt-[24px] px-[128px] max-sm:px-[16px] py-[16px] w-full justify-self-center flex flex-wrap">
 
                     <div className='text-xl max-xl:text-[16px]'>Copyright © 2019 a theme by <span className='text-white'>themefisher.com</span></div>
-                    <div className='relative max-xl:left-[10%] max-sm:left-[0%] max-xl:mt-10 left-[30%]'>
+                    <div className='relative max-xl:left-[10%] max-sm:left-[0%] max-sm:translate-x-[0px] max-xl:mt-10 left-[30%]'>
                         <ul className='flex font-medium gap-[24px] max-md:gap-[12px]'>
                             <li><Link href='/' className='max-md:text-[14px]'>Home</Link></li>
                             <li><Link href='/' className='max-md:text-[14px]'>About Us</Link></li>
