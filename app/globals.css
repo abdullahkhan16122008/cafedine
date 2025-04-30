@@ -1,26 +1,51 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.cookie {
+  font-family: "Cookie", cursive;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.font-600{
+  font-weight: 600;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bg-theme-color{
+  background-color: #e7272d;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.theme-color{
+  color: #e7272d;
+}
+.link:hover .hover-it{
+  height: 15px;
+}
+.theme-btn:hover{
+  background-color: black;
+}
+.theme-btn2:hover{
+  background-color: #e7272d;
+  color: white;
+}
+.change:hover .change-t{
+  color: #e7272d;
+}
+.seen,.seen1{
+  overflow: hidden;
+  visibility: hidden;
+}
+.seen:hover,
+.hover-seen:hover ~ .seen{
+  height: 246px;
+  visibility: visible;
+}
+.seen1:hover,
+.hover-seen:hover ~ .seen1{
+  height: 100px;
+  visibility: visible;
+}
+.bg-size{
+  background-size: 100% 100%;
+}
+.bg-footer{
+  background-color: rgb(20, 20, 20);
+}
+.bg-footer-2{
+  background-color: rgb(15, 15, 15);
 }
