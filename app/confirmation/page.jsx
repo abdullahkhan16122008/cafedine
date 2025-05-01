@@ -15,6 +15,10 @@ const page = () => {
   return (
     <div>
       {loader?<Loader/>:""}
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8927620095005859"
+     crossOrigin="anonymous"></script>
+      </head>
 
       <Header />
       <div className='h-[60vh] content-center bg-size w-full bg-[url(/kitchen.jpg)]'>
