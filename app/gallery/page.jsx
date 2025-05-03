@@ -6,6 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import Loader from '../components/Loader'
 import { useEffect, useState } from 'react'
+import AdBanner from '../components/AdBanner'
 
 
 
@@ -34,6 +35,7 @@ const page = () => {
           <h1 className='text-white text-center text-5xl font-medium font-serif'>Our Gallery</h1>
         </div></div>
       <GalleryVideos />
+      <AdBanner />
       <Footer />
     </div>
   )

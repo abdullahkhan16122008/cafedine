@@ -10,6 +10,7 @@ import FooterSlider from "./components/FooterSlider";
 import Footer from "./components/Footer";
 import { useEffect, useState } from 'react'
 import Loader from './components/Loader'
+import AdBanner from "./components/AdBanner";
 
 export default function Home() {
     const [loader, setLoader] = useState(true)
@@ -18,6 +19,7 @@ export default function Home() {
         setLoader(false)
       }, 1000)
     },[])
+    
   return (
     <div className=''>
       {loader?<Loader/>:""}
@@ -29,6 +31,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Article1 />
+      <AdBanner />
       <About />
       <Menu theme='theme-color' link1='/' link2='/starter' link3='/launch' link4='/dinner' starter='text-gray-500' display='flex' display2='flex' display3='flex' display4='flex' display5='flex' display6='flex' display7='flex' display8='flex' launch='text-gray-500' dinner='text-gray-500' />
       <Phone />
