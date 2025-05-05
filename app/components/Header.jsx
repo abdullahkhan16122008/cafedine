@@ -13,9 +13,9 @@ const Header = () => {
 
   const handleBurger = () => {
     if (ref.current && ref.current.style.height == '77px') {
-      ref.current.style.height = '470px';
+      ref.current.style.height = '500px';
     }
-    else if(ref.current.style.height = '470px'){
+    else if(ref.current.style.height = '500px'){
       ref.current.style.height = '77px'
     }
   };
@@ -42,28 +42,28 @@ const Header = () => {
 
               <li>
                 <Link href={'/'} className='link block' >
-                <div className='w-[50px] duration-200 absolute max-xl:relative max-xl:top-6.5 top-3 hover-it z-[-1] max-xl:translate-x-[125px] h-[0px] bg-[#e7272d]'></div>
+                <div className='w-[50px] duration-200 absolute max-xl:relative max-xl:top-6.5 top-3 hover-it z-[-1] max-xl:translate-x-[105px] h-[0px] bg-[#e7272d]'></div>
                 <div className='z-20 text-[16px]'>HOME</div>
                 </Link>
               </li>
 
               <li>
                 <Link href={'/about'} className='link block' >
-                <div className='w-[57px] duration-200 absolute top-3 max-xl:relative max-xl:top-6.5 max-xl:translate-x-[122px] hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
+                <div className='w-[57px] duration-200 absolute top-3 max-xl:relative max-xl:top-6.5 max-xl:translate-x-[102px] hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
                 <div className='z-20 text-[16px]'>ABOUT</div>
                 </Link>
               </li>
 
               <li>
                 <Link href={'/recipes'} className='link block' >
-                <div className='w-[62px] duration-200 absolute max-xl:relative max-xl:top-6.5 max-xl:translate-x-[120px] top-3 hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
+                <div className='w-[62px] duration-200 absolute max-xl:relative max-xl:top-6.5 max-xl:translate-x-[100px] top-3 hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
                 <div className='z-20 text-[16px]'>RECIPES</div>
                 </Link>
               </li>
 
               <li className='mr-[-28px] max-xl:translate-x-[-13px]'>
                 <Link href={'/gallery'} className='link block' >
-                <div className='w-[67px] duration-200 absolute top-3 max-xl:relative max-xl:top-6.5 max-xl:translate-x-[130px] hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
+                <div className='w-[67px] duration-200 absolute top-3 max-xl:relative max-xl:top-6.5 max-xl:translate-x-[110px] hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
                 <div className='z-20 text-[16px]'>GALLERY</div>
                 </Link>
               </li>
@@ -132,7 +132,7 @@ const Header = () => {
 
               <li>
                 <Link href={'/contact'} className='link block ml-[-56px] max-xl:ml-0' >
-                <div className='w-[75px] duration-200 absolute max-xl:relative max-xl:top-6.5 max-xl:translate-x-[113px] top-3 hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
+                <div className='w-[75px] duration-200 absolute max-xl:relative max-xl:top-6.5 max-xl:translate-x-[93px] top-3 hover-it z-[-1] h-[0px] bg-[#e7272d]'></div>
                 <div className='z-20 text-[16px]'>CONTACT</div>
                 </Link>
               </li>
