@@ -12,11 +12,11 @@ const Header = () => {
   }, []);
 
   const handleBurger = () => {
-    if (ref.current && ref.current.style.height == '0px') {
+    if (ref.current && ref.current.style.height == '77px') {
       ref.current.style.height = '470px';
     }
     else if(ref.current.style.height = '470px'){
-      ref.current.style.height = '0px'
+      ref.current.style.height = '77px'
     }
   };
 
@@ -37,7 +37,7 @@ const Header = () => {
               <div className='w-full h-[2px] my-1.5 bg-black'></div>
               <div className='w-full h-[2px] my-1.5 bg-black'></div>
             </div>
-          <div ref={ref} className="navLinks relative translate-y-3 max-xl:h-[0px] duration-300 overflow-hidden max-xl:top-[77px] max-xl:right-[30%] max-md:right-[25%]">
+          <div ref={ref} className="navLinks relative translate-y-3 max-xl:h-[77px] duration-300 overflow-hidden max-xl:top-[77px] max-xl:right-[30%] max-md:right-[25%]">
             <ul className='flex max-xl:flex-col text-white max-xl:text-center max-xl:justify-items-center text-xl font-bold gap-[32px]'>
 
               <li>
