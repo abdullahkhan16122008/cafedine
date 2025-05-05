@@ -22,7 +22,7 @@ const page = () => {
         useEffect(()=>{
           setTimeout(()=>{
             setLoader(false)
-          }, 1000)
+          }, 2000)
         },[])
         return (
           <div>
