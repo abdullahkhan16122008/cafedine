@@ -23,7 +23,7 @@ const Hero = () => {
     <div className='relative'>
         <section className='overflow-hidden h-[120vh] w-full'>
         <Slider {...settings}>
-        <div className='h-[115vh] content-center w-full bg-[url(/slide-1.jpg)]'>
+        <div className='h-[115vh] content-center w-full bg-[url(/slide-1.jpg)] max-md:bg-contain'>
 
         <section className='content-center px-[128px] max-sm:px-[32px]'>
           <div className='max-sm:text-center'>
@@ -47,7 +47,7 @@ const Hero = () => {
 
         </div>
         
-        <div className='h-[115vh] w-full content-center bg-[url(/slide-3.jpg)]'>
+        <div className='h-[115vh] w-full content-center bg-[url(/slide-3.jpg)] max-md:bg'>
 
         <section className='content-center px-[128px] max-sm:px-[32px]'>
           <div className='max-sm:text-center'>
