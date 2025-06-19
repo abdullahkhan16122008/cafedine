@@ -53,7 +53,7 @@ const About = () => {
             </section>
 
 
-            <section className='bg-[url(/bg-karahi.jpg)] bg-fixed bg-cover text-center'>
+            <section className='bg-[url(/bg-karahi.jpg)] bg-cover bg-fixed text-center'>
 
                 <div className='backdrop-brightness-50 py-[128px]'>
 
