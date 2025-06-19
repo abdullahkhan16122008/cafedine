@@ -35,7 +35,7 @@ const Hero = () => {
 
         </div>
         
-        <div className='h-[115vh] w-full content-center bg-[url(/slide-2.jpg)]'>
+        <div className='h-[115vh] w-full content-center bg-[url(/slide-2.jpg)] max-md:bg-contain'>
 
         <section className='content-center px-[128px] max-sm:px-[32px]'>
           <div className='max-sm:text-center'>
